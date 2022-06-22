@@ -1,17 +1,23 @@
 # PythonTestHarness
 
-Introduction
+<b>Introduction</b>
 
-This test harness was developped to ...
-  send xml files to msmq
-  send csv files to a file location
-  execute Rast GET requests
-  execute Rest POST requests
-  execute SQL requests
-  
+This test harness was developped to ...<br>
+<ul>
+  <li>Send xml files to msmq</li>
+  <li>Execute Rest GET and Post requests</li>
+  <li>Execute SQL requests</li>
+</ul>
+
+
 The test suite is driven by BDD test cases (Given, When, Then) which refers to the steps defined in the steps.py file. The implementation, such as xml and json file handling, is stored in the core.py file. The integration with msmq, rest and sql are implemented in respective files.
  
-Installation
- pip install behave
+ <br>
+<b>Installation and execution</b>
+<ul>
+  <li>pip install behave</li>
+  <li>> behave suites/projects/module --include testname.feature --tags=~@wip
+</ul>
+
  
- Project specific data, configuration and files have been removed from this project.
+Note - Project specific data, configuration and files have been removed from this project. Folder structure, template files and test will need to be created.
